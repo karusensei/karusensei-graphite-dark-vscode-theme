@@ -1,62 +1,86 @@
-![banner](https://raw.githubusercontent.com/uloco/theme-bluloco-dark/main/banner.png)
+# CC Graphite Dark
 
-# Bluloco Dark VSCode Theme
+Thème sombre pour Visual Studio Code : une interface en **gris purs**, sans aucune
+teinte bleutée, autour d'une coloration syntaxique vive.
 
-### Description
+Deux variantes :
 
-A fancy and sophisticated dark color scheme / theme for
-Visual Studio Code.
+- **CC Graphite Dark**
+- **CC Graphite Dark Italic** : commentaires, mots-clés et `this` / `self` en italique.
 
-This theme features a much more comprehensive usage of syntax scopes and color
-consistency, with due regards to aesthetics, contrast and readability.
-Originally forked from the beautiful One Dark Theme, enhanced with the
-meaningful intuitive Bluloco color palette.
+## Principes
 
-This theme also works very good when Apple's **Nightshift Mode** is activated.
+- **Gris neutres uniquement.** Tous les gris de l'interface ont `R = G = B`, ce qui
+  donne un graphite mat, sans dominante froide. L'échelle complète est dans
+  [grey-palette.md](grey-palette.md).
+- **L'éditeur au centre.** Le fond de l'éditeur (`#181818`) est le gris le plus
+  sombre de l'espace de travail. L'onglet actif reprend exactement ce fond, et la
+  barre d'onglets est plus claire (`#252525`) : l'onglet sélectionné semble se
+  prolonger dans l'éditeur.
+- **Un seul gris pour le cadre.** La barre d'activité et la barre d'état partagent
+  `#323232`, y compris au survol et sur l'élément actif. Seule l'icône change d'état,
+  sans carré de fond.
+- **Repères discrets.** Les règles verticales et les repères d'indentation
+  (`#262626`) se devinent sans attirer l'œil. Le repère du bloc courant ressort un
+  peu plus (`#3a3a3a`).
+- **Un accent bleu** (`#3691ff`) pour ce qui est actif : liseré de l'onglet,
+  élément actif de la barre d'activité, bordure de la barre d'état, badges.
 
-Give it a try :)
+## Interface
 
-### Support
+| Rôle                              | Hex       |
+| --------------------------------- | --------- |
+| Fond de l'éditeur, onglet actif   | `#181818` |
+| Barre d'onglets, onglets inactifs | `#252525` |
+| Onglet survolé                    | `#2e2e2e` |
+| Barre d'activité, barre d'état    | `#323232` |
+| Règles, repères d'indentation     | `#262626` |
+| Texte principal                   | `#b1b1b1` |
+| Texte secondaire                  | `#6c6c6c` |
+| Bordures                          | `#434343` |
+| Accent                            | `#3691ff` |
 
-If you like using this, please consider donating a little bit. It takes a lot of time to keep this updated with every VSCode release.
-I want to keep bluloco a great experience for everybody and your help would be immensely motivating to keep me doing this. :)
+## Syntaxe
 
-<a href="https://www.buymeacoffee.com/umipaloomi" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a> <a href="https://www.paypal.com/donate/?hosted_button_id=YSDKWM2D66GZJ" target="_blank"><img src="https://pics.paypal.com/00/s/OGRmNzQwNTMtZGNiYS00MTIzLWE1ZWUtNWI2ZDdhMGUwMWVm/file.PNG" alt="PayPal Donate" style="height: 60px !important;" ></a>
+| Portée                     | Hex       |
+| -------------------------- | --------- |
+| Texte                      | `#b1b1b1` |
+| Commentaire                | `#636d83` |
+| Mot-clé                    | `#10b1fe` |
+| Fonction, méthode          | `#3fc56b` |
+| Propriété                  | `#ce9887` |
+| Chaîne                     | `#f9c859` |
+| Nombre                     | `#ff78f8` |
+| Constante                  | `#9f7efe` |
+| Balise                     | `#3691ff` |
+| Attribut de balise         | `#ff936a` |
+| Classe, type, interface    | `#ff6480` |
+| Opérateur, ponctuation     | `#7a82da` |
 
-## Syntax Palette
+Les commentaires gardent volontairement un gris légèrement bleuté : il les détache
+du texte courant.
 
-| Scope                | Color                                                           | HEX     | RGB                |
-| -------------------- | --------------------------------------------------------------- | ------- | ------------------ |
-| Background           | ![#282c34](https://img.shields.io/badge/-_-282c34?style=flat-square) | #282c34 | rgb(40, 44, 52)    |
-| Foreground           | ![#abb2bf](https://img.shields.io/badge/-_-abb2bf?style=flat-square) | #abb2bf | rgb(171, 178, 191) |
-| Comment              | ![#636d83](https://img.shields.io/badge/-_-636d83?style=flat-square) | #636d83 | rgb(99, 109, 131)  |
-| Keyword              | ![#10b1fe](https://img.shields.io/badge/-_-10b1fe?style=flat-square) | #10b1fe | rgb(16, 177, 254)  |
-| Function/Method      | ![#3fc56b](https://img.shields.io/badge/-_-3fc56b?style=flat-square) | #3fc56b | rgb(63, 197, 107)  |
-| Property             | ![#ce9887](https://img.shields.io/badge/-_-ce9887?style=flat-square) | #ce9887 | rgb(206, 152, 135) |
-| String               | ![#f9c859](https://img.shields.io/badge/-_-f9c859?style=flat-square) | #f9c859 | rgb(249, 200, 89)  |
-| Number               | ![#ff78f8](https://img.shields.io/badge/-_-ff78f8?style=flat-square) | #ff78f8 | rgb(255, 120, 248) |
-| Constant             | ![#9f7efe](https://img.shields.io/badge/-_-9f7efe?style=flat-square) | #9f7efe | rgb(159, 126, 254) |
-| Markup Tag           | ![#3691ff](https://img.shields.io/badge/-_-3691ff?style=flat-square) | #3691ff | rgb(54, 145, 255)  |
-| Markup Attribute     | ![#ff936a](https://img.shields.io/badge/-_-ff936a?style=flat-square) | #ff936a | rgb(255, 147, 106) |
-| Class/Type/Interface | ![#ff6480](https://img.shields.io/badge/-_-ff6480?style=flat-square) | #ff6480 | rgb(255, 100, 128) |
-| Operator/Punctuation | ![#7a82da](https://img.shields.io/badge/-_-7a82da?style=flat-square) | #7a82da | rgb(122, 130, 218) |
+## Installation
 
-## Screenshots
+Le thème n'est pas publié sur le Marketplace. Pour l'installer depuis les sources :
 
-Here are a bunch of screenshots. I tested a long range of languages, these are just a few.
-You can test them all in this repo:
-https://github.com/uloco/syntax-highlighting-samples
+```bash
+npx @vscode/vsce package
+code --install-extension cc-graphite-dark-1.0.0.vsix
+```
 
-![js](https://raw.githubusercontent.com/uloco/theme-bluloco-dark/main/screenshots/js.png)
+Choisir ensuite **CC Graphite Dark** avec `Preferences: Color Theme`.
 
-![ts](https://raw.githubusercontent.com/uloco/theme-bluloco-dark/main/screenshots/ts.png)
+Pour le modifier en direct, ouvrir ce dossier dans VS Code et lancer la configuration
+**Extension** (`F5`) : la fenêtre de développement recharge le thème à chaque
+enregistrement.
 
-![py](https://raw.githubusercontent.com/uloco/theme-bluloco-dark/main/screenshots/py.png)
+## Origine et licence
 
-![rb](https://raw.githubusercontent.com/uloco/theme-bluloco-dark/main/screenshots/rb.png)
+CC Graphite Dark est dérivé de [Bluloco Dark](https://github.com/uloco/theme-bluloco-dark)
+d'uloco, dont il reprend la coloration syntaxique. L'interface a été entièrement
+reprise : passage aux gris neutres, fond d'éditeur et hiérarchie des surfaces
+redéfinis, onglets, barres et repères retravaillés.
 
-![php](https://raw.githubusercontent.com/uloco/theme-bluloco-dark/main/screenshots/php.png)
-
-![html](https://raw.githubusercontent.com/uloco/theme-bluloco-dark/main/screenshots/html.png)
-
-![css](https://raw.githubusercontent.com/uloco/theme-bluloco-dark/main/screenshots/css.png)
+Comme le thème d'origine, il est distribué sous licence
+[GNU LGPL v3](LICENSE.txt).

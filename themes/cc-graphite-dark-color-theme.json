@@ -1,5 +1,5 @@
 {
-  "name": "Bluloco CC Dark Italic",
+  "name": "CC Graphite Dark",
   "semanticHighlighting": true,
   "$schema": "vscode://schemas/color-theme",
   "type": "dark",
@@ -538,8 +538,7 @@
         "meta.other.type.phpdoc support class"
       ],
       "settings": {
-        "foreground": "#7c8495",
-        "fontStyle": ""
+        "foreground": "#7c8495"
       }
     },
     {
@@ -742,6 +741,7 @@
       "scope": [
         "constant",
         "variable.other.constant",
+        "punctuation.definition.constant",
         "constant.other.symbol",
         "constant.language.symbol",
         "support.constant",
@@ -789,6 +789,7 @@
         "markup.heading.setext"
       ],
       "settings": {
+        "fontStyle": "",
         "foreground": "#f9c859"
       }
     },
@@ -808,9 +809,10 @@
       }
     },
     {
-      "name": "Markup Italic",
+      "name": "Italic",
       "scope": ["markup.italic", "punctuation.definition.italic"],
       "settings": {
+        "fontStyle": "italic",
         "foreground": "#ff936a"
       }
     },
@@ -842,46 +844,6 @@
       "settings": {
         "foreground": "#636d83",
         "fontStyle": "bold strikethrough"
-      }
-    },
-    {
-      "name": "Italic",
-      "scope": [
-        "markup.italic",
-        "punctuation.definition.italic",
-        "comment",
-        "string.comment",
-        "comment.block.documentation",
-        "comment.block",
-        "keyword",
-        "keyword.operator.type.asserts",
-        "keyword.operator.expression",
-        "keyword.operator.new",
-        "variable.language",
-        "markup.quote",
-        "markup.inserted",
-        "markup.deleted",
-        "markup.changed",
-        "storage",
-        "constant.language",
-        "entity.name.class",
-        "entity.other.attribute-name"
-      ],
-      "settings": {
-        "fontStyle": "italic"
-      }
-    },
-    {
-      "name": "No Italic",
-      "scope": [
-        "keyword.operator",
-        "keyword.other.unit",
-        "support.type.property-name",
-        "keyword.other.special-method",
-        "entity.name.tag"
-      ],
-      "settings": {
-        "fontStyle": ""
       }
     },
     {
@@ -1114,10 +1076,7 @@
   "parameter": "#8bcdef",
   "variable": "#abb2bf",
   "variable.readonly": "#9f7efe",
-  "variable.defaultLibrary": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
+  "variable.defaultLibrary": "#10b1fe",
   "property": "#ce9887",
   "property.readonly": "#9f7efe",
   "enumMember": "#9f7efe",
@@ -1127,15 +1086,9 @@
   "macro": "#3fc56b",
   "decorator": "#50acae",
   "label": "#50acae",
-  "comment": {
-    "foreground": "#636d83",
-    "italic": true
-  },
+  "comment": "#636d83",
   "string": "#f9c859",
-  "keyword": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
+  "keyword": "#10b1fe",
   "number": "#ff78f8",
   "regexp": "#ce9887",
   "operator": "#7a82da",
@@ -1147,41 +1100,20 @@
   "colon": "#7a82da",
   "semicolon": "#7a82da",
   "arrow": "#7a82da",
-  "selfParameter": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
-  "clsParameter": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
-  "builtinConstant": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
-  "builtinConstant.readonly": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
+  "selfParameter": "#10b1fe",
+  "clsParameter": "#10b1fe",
+  "builtinConstant": "#10b1fe",
+  "builtinConstant.readonly": "#10b1fe",
   "magicFunction": "#3fc56b",
   "function.decorator": "#50acae",
   "class.decorator": "#50acae",
   "string.escapeCharacter": "#ff936a",
   "builtinType": "#10b1fe",
-  "selfKeyword": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
-  "selfTypeKeyword": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
+  "selfKeyword": "#10b1fe",
+  "selfTypeKeyword": "#10b1fe",
   "typeAlias": "#ff6480",
   "union": "#ff6480",
-  "lifetime": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
+  "lifetime": "#10b1fe",
   "const": "#9f7efe",
   "static": "#9f7efe",
   "constParameter": "#9f7efe",
@@ -1202,10 +1134,7 @@
   "recordClass": "#ff6480",
   "recordStruct": "#ff6480",
   "extensionMethod": "#3fc56b",
-  "controlKeyword": {
-    "foreground": "#10b1fe",
-    "italic": true
-  },
+  "controlKeyword": "#10b1fe",
   "stringEscapeCharacter": "#ff936a",
   "excludedCode": "#636d83",
   "preprocessorText": "#636d83",

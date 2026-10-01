@@ -1,34 +1,40 @@
 {
-	"name": "theme-bluloco-dark-cc",
-	"displayName": "Bluloco CC Dark Theme",
-	"description": "Bluloco Dark copy: editor background matches panels.",
+	"name": "cc-graphite-dark",
+	"displayName": "CC Graphite Dark",
+	"description": "Thème sombre perso : interface en gris purs, sans teinte, et coloration syntaxique vive.",
 	"version": "1.0.0",
 	"publisher": "karusensei",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/uloco/theme-bluloco-dark.git"
-	},
-	"sponsor": {
-		"url": "https://github.com/sponsors/uloco"
-	},
+	"license": "LGPL-3.0",
 	"icon": "icon.png",
+	"galleryBanner": {
+		"color": "#181818",
+		"theme": "dark"
+	},
 	"engines": {
-		"vscode": "^1.10.0"
+		"vscode": "^1.75.0"
 	},
 	"categories": [
 		"Themes"
 	],
+	"keywords": [
+		"theme",
+		"dark",
+		"gray",
+		"graphite"
+	],
 	"contributes": {
 		"themes": [
 			{
-				"label": "Bluloco CC Dark",
+				"id": "CC Graphite Dark",
+				"label": "CC Graphite Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/bluloco-cc-color-theme.json"
+				"path": "./themes/cc-graphite-dark-color-theme.json"
 			},
 			{
-				"label": "Bluloco CC Dark Italic",
+				"id": "CC Graphite Dark Italic",
+				"label": "CC Graphite Dark Italic",
 				"uiTheme": "vs-dark",
-				"path": "./themes/bluloco-cc-italic-color-theme.json"
+				"path": "./themes/cc-graphite-dark-italic-color-theme.json"
 			}
 		]
 	}
