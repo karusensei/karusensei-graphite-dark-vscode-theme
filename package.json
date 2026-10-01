@@ -1,0 +1,35 @@
+{
+	"name": "theme-bluloco-cc",
+	"displayName": "Bluloco CC Theme",
+	"description": "Bluloco Dark copy: editor background matches panels.",
+	"version": "1.0.0",
+	"publisher": "karusensei",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/uloco/theme-bluloco-dark.git"
+	},
+	"sponsor": {
+		"url": "https://github.com/sponsors/uloco"
+	},
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.10.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Bluloco CC",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bluloco-cc-color-theme.json"
+			},
+			{
+				"label": "Bluloco CC Italic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/bluloco-cc-italic-color-theme.json"
+			}
+		]
+	}
+}
