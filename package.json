@@ -1,6 +1,6 @@
 {
-	"name": "cc-graphite-dark",
-	"displayName": "CC Graphite Dark",
+	"name": "karusensei-graphite-dark",
+	"displayName": "Karusensei Graphite Dark",
 	"description": "Thème sombre perso : interface en gris purs, sans teinte, et coloration syntaxique vive.",
 	"version": "1.0.0",
 	"publisher": "karusensei",
@@ -25,16 +25,16 @@
 	"contributes": {
 		"themes": [
 			{
-				"id": "CC Graphite Dark",
-				"label": "CC Graphite Dark",
+				"id": "Karusensei Graphite Dark",
+				"label": "Karusensei Graphite Dark",
 				"uiTheme": "vs-dark",
-				"path": "./themes/cc-graphite-dark-color-theme.json"
+				"path": "./themes/karusensei-graphite-dark-color-theme.json"
 			},
 			{
-				"id": "CC Graphite Dark Italic",
-				"label": "CC Graphite Dark Italic",
+				"id": "Karusensei Graphite Dark Italic",
+				"label": "Karusensei Graphite Dark Italic",
 				"uiTheme": "vs-dark",
-				"path": "./themes/cc-graphite-dark-italic-color-theme.json"
+				"path": "./themes/karusensei-graphite-dark-italic-color-theme.json"
 			}
 		]
 	}

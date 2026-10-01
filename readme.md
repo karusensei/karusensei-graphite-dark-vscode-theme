@@ -1,12 +1,12 @@
-# CC Graphite Dark
+# Karusensei Graphite Dark
 
 Thème sombre pour Visual Studio Code : une interface en **gris purs**, sans aucune
 teinte bleutée, autour d'une coloration syntaxique vive.
 
 Deux variantes :
 
-- **CC Graphite Dark**
-- **CC Graphite Dark Italic** : commentaires, mots-clés et `this` / `self` en italique.
+- **Karusensei Graphite Dark**
+- **Karusensei Graphite Dark Italic** : commentaires, mots-clés et `this` / `self` en italique.
 
 ## Principes
 
@@ -66,10 +66,10 @@ Le thème n'est pas publié sur le Marketplace. Pour l'installer depuis les sour
 
 ```bash
 npx @vscode/vsce package
-code --install-extension cc-graphite-dark-1.0.0.vsix
+code --install-extension karusensei-graphite-dark-1.0.0.vsix
 ```
 
-Choisir ensuite **CC Graphite Dark** avec `Preferences: Color Theme`.
+Choisir ensuite **Karusensei Graphite Dark** avec `Preferences: Color Theme`.
 
 Pour le modifier en direct, ouvrir ce dossier dans VS Code et lancer la configuration
 **Extension** (`F5`) : la fenêtre de développement recharge le thème à chaque
@@ -77,7 +77,7 @@ enregistrement.
 
 ## Origine et licence
 
-CC Graphite Dark est dérivé de [Bluloco Dark](https://github.com/uloco/theme-bluloco-dark)
+Karusensei Graphite Dark est dérivé de [Bluloco Dark](https://github.com/uloco/theme-bluloco-dark)
 d'uloco, dont il reprend la coloration syntaxique. L'interface a été entièrement
 reprise : passage aux gris neutres, fond d'éditeur et hiérarchie des surfaces
 redéfinis, onglets, barres et repères retravaillés.

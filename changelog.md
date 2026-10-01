@@ -2,7 +2,7 @@
 
 ## [1.0.0] - 2026-10-01
 
-Première version de CC Graphite Dark, dérivé de Bluloco Dark 3.10.0.
+Première version de Karusensei Graphite Dark, dérivé de Bluloco Dark 3.10.0.
 
 - Passer tous les gris de l'interface en gris neutres (`R = G = B`), à luminosité
   égale, sans dominante bleutée
