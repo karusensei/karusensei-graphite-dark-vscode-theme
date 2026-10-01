@@ -1,6 +1,6 @@
 {
-	"name": "theme-bluloco-cc",
-	"displayName": "Bluloco CC Theme",
+	"name": "theme-bluloco-dark-cc",
+	"displayName": "Bluloco CC Dark Theme",
 	"description": "Bluloco Dark copy: editor background matches panels.",
 	"version": "1.0.0",
 	"publisher": "karusensei",
@@ -21,12 +21,12 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Bluloco CC",
+				"label": "Bluloco CC Dark",
 				"uiTheme": "vs-dark",
 				"path": "./themes/bluloco-cc-color-theme.json"
 			},
 			{
-				"label": "Bluloco CC Italic",
+				"label": "Bluloco CC Dark Italic",
 				"uiTheme": "vs-dark",
 				"path": "./themes/bluloco-cc-italic-color-theme.json"
 			}
